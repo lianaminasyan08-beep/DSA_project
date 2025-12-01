@@ -28,9 +28,9 @@ void destroy_hash_map(HashMap *map){
             free(node->key);
             free(node);
             node = next;
-        }
-        free(map->buckets); // ? or it should be free(map->buckets[i])
+        } 
     }
+    free(map->buckets);
     free(map);
     return;
 }
