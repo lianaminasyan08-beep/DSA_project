@@ -1,4 +1,4 @@
-#include "../include/c_graph.h"
+#include "c_graph.h"
 #include <stdio.h>
 #include <stdlib.h>
 
