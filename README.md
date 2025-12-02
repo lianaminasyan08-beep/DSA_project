@@ -65,3 +65,38 @@ A word frequency counter. The demo program should read a text file, use the `C-H
   - **API Encapsulation**: Hiding implementation details from the user.
 
 -----
+
+### 3. `C-BST`: A Binary Search Tree Library
+
+# Project Title: `C-BST` - A Binary Search Tree Library
+
+## Overview
+
+A Binary Search Tree (BST) is a hierarchical data structure where each node has up to two children: the left subtree contains values less than the node’s key, and the right subtree contains values greater than it.
+This project implements a **simple, unbalanced BST** in C — ideal for learning how trees are built, traversed, and modified without the extra complexity of balancing algorithms.
+
+## Core Features
+
+* Create and destroy a BST.
+* Insert, search, and delete keys.
+* Optional support for storing **key-value pairs** (like a map).
+* Traversal functions:
+
+  * **Inorder** (sorted order)
+  * **Preorder**
+  * **Postorder**
+* Optional recursive or iterative implementations.
+
+## Demo Application Idea
+
+A **contact manager**: each contact’s name is the key (string), and their phone number or email is the value.
+The user can add, remove, or search contacts, and print the contact list alphabetically using an inorder traversal.
+
+## Key Learning Concepts
+
+* **Tree Fundamentals**: Understanding parent-child relationships and recursive structure.
+* **Recursion Practice**: Implementing traversal and search logic recursively.
+* **Dynamic Memory**: Managing node creation and deletion with `malloc`/`free`.
+* **Ordered Data**: Using trees to maintain sorted data efficiently.
+
+----
